@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="D:/NewSeleniumProject/src/test">
+        <classes>
+            <class name="com.bridgelabz.Testcase.LoginPageTest">
+                <methods>
+                    <include name="login"/>
+                </methods>
+            </class>
+            <class name="com.bridgelabz.Testcase.LoginPageUsingDataDrivenTest">
+                <methods>
+                    <include name="loginMultipleAccount"/>
+                </methods>
+            </class>
+            <class name="com.bridgelabz.Testcase.LoginUsingXcelData">
+                <methods>
+                    <include name="loginUsingXcel"/>
+                </methods>
+            </class>
+            <class name="com.bridgelabz.Testcase.resisterPageTest">
+                <methods>
+                    <include name="resister"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

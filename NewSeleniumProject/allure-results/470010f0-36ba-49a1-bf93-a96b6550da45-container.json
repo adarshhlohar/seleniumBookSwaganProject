@@ -1,0 +1,1 @@
+{"uuid":"470010f0-36ba-49a1-bf93-a96b6550da45","name":"com.bridgelabz.Testcase.AddToCartTest","children":["40bf26c9-5209-425f-81b2-1364338b768a"],"befores":[{"name":"login","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1708324407041,"stop":1708324424701}],"afters":[],"start":1708324407018,"stop":1708324428530}
